@@ -20973,3 +20973,5 @@ else if(typeof define === 'function' && define.amd) define('xlsx', function() { 
 else make_xlsx_lib(XLSX);
 /*exported XLS, ODS */
 var XLS = XLSX, ODS = XLSX;
+
+export default XLSX;

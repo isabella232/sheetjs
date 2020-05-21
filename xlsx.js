@@ -2,6 +2,7 @@
 /* vim: set ts=2: */
 /*exported XLSX */
 /*global global, exports, module, require:false, process:false, Buffer:false, ArrayBuffer:false */
+import './jszip.js';
 var XLSX = {};
 function make_xlsx_lib(XLSX){
 XLSX.version = '0.14.0';
